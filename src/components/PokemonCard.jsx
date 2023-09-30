@@ -1,7 +1,13 @@
 import React from 'react'
 
-function MyTitle() {
-    return (<h1>Hello React</h1>);
+function PokemonCard() {
+    return (
+        <figure>
+            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png" />
+            <figcaption>Bulbasaur</figcaption>
+        </figure>
+
+    );
 }
 
-export default MyTitle;
+export default PokemonCard;
